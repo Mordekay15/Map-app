@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@nextui-org/react": "^2.4.8",
+    "@supabase/supabase-js": "^2.45.4",
+    "framer-motion": "^11.11.1",
+    "mapbox-gl": "^3.7.0",
+    "react-router-dom": "^6.26.2"
+  }
+}

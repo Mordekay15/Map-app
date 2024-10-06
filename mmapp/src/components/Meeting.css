@@ -1,0 +1,43 @@
+.meeting-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.meeting-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.meeting-item {
+    display: flex; /* Используем flex для выравнивания элементов */
+    justify-content: space-between; /* Распределяем элементы по сторонам */
+    align-items: center; /* Выравниваем по вертикали */
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.meeting-details {
+    display: flex;
+    flex-direction: column; /* Вертикальное выравнивание названий */
+}
+
+.meeting-name {
+    font-weight: bold;
+    font-size: 1.2em; /* Размер шрифта для названия встречи */
+}
+
+.venue-name {
+    font-weight: normal; /* Обычный шрифт для названия ресторана */
+    font-size: 0.9em; /* Меньший размер шрифта */
+    color: #777; /* Цвет для лучшей читаемости */
+}
+
+.meeting-date {
+    color: #777; /* Цвет для даты */
+    font-size: 0.9em; /* Меньший размер шрифта для даты */
+}

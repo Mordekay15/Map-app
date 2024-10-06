@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.header .logo {
+    font-size: 1.5em;
+}
+
+.header nav a {
+    color: white;
+    margin-left: 20px;
+}
+
+.ellipses a {
+    font-size: 2em;
+}
+
+.link-to-meetings {
+    margin-right: 50px;
+}
